@@ -1,0 +1,55 @@
+<OGRVRTDataSource>
+    <OGRVRTLayer name="berlin_bike_accidents_neukoelln_2002_2015">
+        <SrcDataSource>../berlin_bike_accidents_neukoelln_2002_2015.csv</SrcDataSource>
+        <GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>EPSG:4326</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="long" y="lat"/>
+        <Field name="PAGINIER" src="PAGINIER" type="Integer" />
+        <Field name="NK_ABSCHNI" src="NK_ABSCHNI" type="String" />
+        <Field name="STRASSENNAM" src="STRASSENNAM" type="String" />
+        <Field name="BEZIRKNA" src="BEZIRKNA" type="String" />
+        <Field name="ORTSTEIL" src="ORTSTEIL" type="String" />
+        <Field name="GEBIETNR" src="GEBIETNR" type="Integer" />
+        <Field name="ORTSTEILNR" src="ORTSTEILNR" type="Integer" />
+        <Field name="DATUM" src="DATUM" type="Date" />
+        <Field name="UHRZEIT" src="UHRZEIT" type="String" />
+        <Field name="UNFALLKOST" src="UNFALLKOST" type="Integer" />
+        <Field name="B1KFZSCHAD" src="B1KFZSCHAD" type="Integer" />
+        <Field name="B2KFZSCHAD" src="B2KFZSCHAD" type="Integer" />
+        <Field name="UNFALLKA0" src="UNFALLKA0" type="Integer" />
+        <Field name="BETEILIGTE" src="BETEILIGTE" type="Integer" />
+        <Field name="GETOETETE" src="GETOETETE" type="Integer" />
+        <Field name="SCHWERVERL" src="SCHWERVERL" type="Integer" />
+        <Field name="LEICHTVERL" src="LEICHTVERL" type="Integer" />
+        <Field name="UNFALLART" src="UNFALLART" type="Integer" />
+        <Field name="UNFALLTYP" src="UNFALLTYP" type="Integer" />
+        <Field name="ALLGURSACH" src="ALLGURSACH" type="Integer" />
+        <Field name="STRASSENTE" src="STRASSENTE" type="String" />
+        <Field name="HOECHSTGESC" src="HOECHSTGESC" type="Integer" />
+        <Field name="LICHTVER0" src="LICHTVER0" type="Integer" />
+        <Field name="STELLECH0" src="STELLECH0" type="Integer" />
+        <Field name="BESONDER0" src="BESONDER0" type="Integer" />
+        <Field name="LICHTSIG0" src="LICHTSIG0" type="Integer" />
+        <Field name="AUFPRALL" src="AUFPRALL" type="Integer" />
+        <Field name="ALTERSGRUP" src="ALTERSGRUP" type="String" />
+        <Field name="UNFALLGE0" src="UNFALLGE0" type="String" />
+        <Field name="B1VERKEHRS" src="B1VERKEHRS" type="String" />
+        <Field name="B1ALTER" src="B1ALTER" type="Integer" />
+        <Field name="B1GESCHLEC" src="B1GESCHLEC" type="String" />
+        <Field name="B1UNFALLFO" src="B1UNFALLFO" type="String" />
+        <Field name="B1URSACHE1" src="B1URSACHE1" type="String" />
+        <Field name="B1URS1" src="B1URS1" type="Integer" />
+        <Field name="B1URS2" src="B1URS2" type="Integer" />
+        <Field name="B1URSACHE3" src="B1URSACHE3" type="String" />
+        <Field name="B2VERKEHRS" src="B2VERKEHRS" type="String" />
+        <Field name="B2ALTER" src="B2ALTER" type="Integer" />
+        <Field name="B2GESCHLEC" src="B2GESCHLEC" type="String" />
+        <Field name="B2UNFALLFO" src="B2UNFALLFO" type="String" />
+        <Field name="B2URSACHE1" src="B2URSACHE1" type="String" />
+        <Field name="B2URS1" src="B2URS1" type="Integer" />
+        <Field name="B2URS2" src="B2URS2" type="Integer" />
+        <Field name="B2URSACHE3" src="B2URSACHE3" type="String" />
+        <Field name="STRASSENZ0" src="STRASSENZ0" type="Integer" />
+    </OGRVRTLayer>
+</OGRVRTDataSource>
+
