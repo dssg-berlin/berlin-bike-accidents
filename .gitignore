@@ -4,3 +4,4 @@
 data/
 .Rproj*
 !data/re_vms_detailnetz.csv
+animation_out
